@@ -31,9 +31,9 @@ class TennisGame3 implements TennisGame
         }
     }
 
-    public function wonPoint($playerName): void
+    public function wonPoint($player): void
     {
-        if ($playerName == "player1") {
+        if ($player == "player1") {
             $this->p1++;
         } else {
             $this->p2++;
